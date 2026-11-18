@@ -1,0 +1,20 @@
+{
+  "name": "john-telford-skills",
+  "owner": {
+    "name": "John Telford",
+    "url": "https://github.com/john-telford"
+  },
+  "metadata": {
+    "description": "Agent Skills by John Telford"
+  },
+  "plugins": [
+    {
+      "name": "polish",
+      "description": "Adversarial sounding board that critiques your own writing until it is ready to send, without rewriting it for you.",
+      "category": "writing",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/polish"]
+    }
+  ]
+}
